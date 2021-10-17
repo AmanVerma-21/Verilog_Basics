@@ -87,20 +87,5 @@ module bram_dp_tb();
         rst=1'b1;
     end
     
-    
 endmodule
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
