@@ -47,10 +47,6 @@ module param_dp_bram #(
     );
    // memory declaration
    reg [(data_width_wr-1):0] memory [(addr_depth_wr-1):0];
-   //if (mem_file!="none")
-   //     if (mem_file_format== "binary")$readmemb(mem_file,memory,0,);
- 
-        
    
    always @ (posedge clk_wr) begin
    if (we && !rst)
