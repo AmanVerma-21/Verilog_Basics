@@ -85,9 +85,6 @@ module bram_dp_tb();
         address_rd = 4'h02;
         #200
         rst=1'b1;
-        //clk_rd_en = 1'b1;
-        //#1000;
-        //$stop;
     end
     
     
